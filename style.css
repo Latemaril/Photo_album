@@ -9,7 +9,7 @@
 	align-content: center;
 }
 
-.dropZone_another {
+.dropZone_1 {
 	border: 5px dashed #b1b1ff;
 	width: 200px;
 	height: 270px;
@@ -18,10 +18,39 @@
 	flex-wrap: wrap;
 	justify-content: center;
 	align-content: center;
+
+	overflow: hidden;
+}
+
+.dropZone_2 {
+	border: 5px dashed #b1b1ff;
+	width: 270px;
+	height: 200px;
+	margin: 15px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+
+	overflow: hidden;
+}
+
+.dropZone_3 {
+	border: 5px dashed #b1b1ff;
+	width: 150px;
+	height: 400px;
+	margin: 15px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+
+	overflow: hidden;
 }
 
 .dragItem {
-	margin: 10px;
+	width: 270px;
+	height: 270px;
 	color: white;
 	font-size: 30px;
 	text-align: center;
