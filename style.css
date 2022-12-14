@@ -1,0 +1,44 @@
+.dropZone {
+	border: 5px dashed #b1b1ff;
+	width: 270px;
+	height: 270px;
+	margin: 15px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+}
+
+.dropZone_another {
+	border: 5px dashed #b1b1ff;
+	width: 200px;
+	height: 270px;
+	margin: 15px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+}
+
+.dragItem {
+	margin: 10px;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+
+	object-fit: cover;
+}
+
+.d-flex {
+	display: flex;
+}
+
+.js_cell--active {
+	border: 5px dashed blue;
+}
+
+.photo-drop-wrapper {
+	stroke: none;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
