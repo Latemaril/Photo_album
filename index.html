@@ -1,27 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Drag and drop</title>
-		<link rel="stylesheet" href="style.css" />
-	</head>
-	<body>
-		<div class="d-flex">
-			<div class="dropZone js_cell" data-zone="1">
-				<img class="dragItem" draggable="true" src="img/grid_1.svg" data-item="1"></img>
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Drag and drop</title>
+	<link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+<div class="wrapper">
+	<div class="editor-window">
+		<section class="editor-layout"></section>
+		<section class="album-editor">
+			<div class="album-pages">
+				<div class="album-pages-left"></div>
+				<div class="album-pages-right">
+					<div class="photo-container-3 js_cell">
+					</div>
+				</div>
 			</div>
-			<div class="dropZone js_cell" data-zone="2">
+		</section>
+		<section class="photos-menu">
+			<div class="photo-menu-container">
+				<div class="photo-selection">
+					<div class="dropZone" data-zone="1">
+						<img class="dragItem js_item" draggable="true" src="img/grid_1.svg" data-item="1"></img>
+					</div>
+					<div class="dropZone" data-zone="2">
+						<img class="dragItem js_item" draggable="true" src="img/0-5-5.jpg" data-item="2"></img>
+					</div>
+					<div class="dropZone" data-zone="3">
+						<img class="dragItem js_item" draggable="true" src="img/0-5-5.jpg" data-item="3"></img>
+					</div>
+					<div class="dropZone" data-zone="4">
+						<img class="dragItem js_item" draggable="true" src="img/0-5-5.jpg" data-item="4"></img>
+					</div>
+				</div>
+				<div class="shapes-selection">
+					<div class="shapes__container">
+						<button class="button shape-1">1</button>
+						<button class="button shape-2">2</button>
+						<button class="button shape-3">3</button>
+					</div>
+				</div>
 			</div>
-			<div class="dropZone_1 js_cell" data-zone="3">
-			</div>
-			<div class="dropZone_2 js_cell" data-zone="3">
-			</div>
-			<div class="dropZone_3 js_cell" data-zone="3">
-				<a href="">Хоп и пиздец</a>
-			</div>
-		</div>
+		</section>
+	</div>
+</div>
 
-		<script src="script.js"></script>
-	</body>
+<script src="js/script.js"></script>
+</body>
 </html>
+
+<!--<div class="d-flex">
+	<div class="dropZone js_cell" data-zone="1">
+		<img class="dragItem" draggable="true" src="img/0-5-5.jpg" data-item="1"></img>
+	</div>
+	<div class="dropZone js_cell" data-zone="2">
+	</div>
+	<div class="dropZone_1 js_cell" data-zone="3">
+	</div>
+	<div class="dropZone_2 js_cell" data-zone="3">
+	</div>
+	<div class="dropZone_3 js_cell" data-zone="3">
+	</div>
+</div>-->

@@ -1,0 +1,99 @@
+.album-editor {
+    min-width: 1095px;
+    width: 73.3vw;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    background-color: #f1f1f1;
+
+    border-left: 2px solid #b4b4b4;
+    border-right: 2px solid #b4b4b4;
+}
+
+.album-pages {
+    min-height: 550px;
+    min-width: 850px;
+
+    margin: 103px auto;
+
+    display: flex;
+    flex-direction: row;
+
+    background-color: #ffffff;
+    border: 1px solid #bdbdbd;
+}
+
+.album-pages-left {
+    min-height: 550px;
+    min-width: 425px;
+
+    flex-basis: 50%;
+
+    border-right: 1px solid #bdbdbd;
+}
+
+.album-pages-right {
+    min-height: 550px;
+    min-width: 425px;
+
+    flex-basis: 50%;
+
+    border-right: 1px solid #bdbdbd;
+}
+
+.photo-container-1 {
+    position: relative;
+
+    height: 450px;
+    width: 300px;
+
+    background-color: #a4a4a4;
+
+    top: 47px;
+    left: 37px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+
+    overflow: hidden;
+}
+
+.photo-container-2 {
+    position: relative;
+
+    height: 300px;
+    width: 300px;
+
+    background-color: #a4a4a4;
+
+    top: 125px;
+    left: 62px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+
+    overflow: hidden;
+}
+
+.photo-container-3 {
+    position: relative;
+
+    height: 500px;
+    width: 300px;
+
+    background-color: #a4a4a4;
+
+    top: 25px;
+    left: 37px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+
+    overflow: hidden;
+}

@@ -1,0 +1,66 @@
+.photos-menu {
+    min-width: 200px;
+    width: 13.3vw;
+    height: 100%;
+}
+
+.photo-menu-container {
+    min-height: 700px;
+    min-width: 180px;
+
+    margin: 28px 10px;
+
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.photo-selection {
+    flex-basis: 20%;
+
+    display: grid;
+    gap: 10px;
+    grid-template-columns: auto auto;
+
+    border-bottom: 1px solid #bdbdbd;
+}
+
+.shape-selection {
+    flex-basis: 80%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.dropZone {
+    border: 1px solid #212121;
+    width: 85px;
+    height: 85px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+
+    overflow: hidden;
+}
+
+.dropZone_3 {
+    border: 5px dashed #b1b1ff;
+    width: 150px;
+    height: 400px;
+    margin: 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+
+    overflow: hidden;
+}
+
+.shapes__container {
+    position: relative;
+    height: 100%;
+
+    margin-top: 20px;
+}
+

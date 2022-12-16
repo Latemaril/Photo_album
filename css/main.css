@@ -1,0 +1,45 @@
+@import "reset.css";
+@import "editor-layout.css";
+@import "photos-menu.css";
+@import "album-editor.css";
+
+
+.wrapper {
+    max-width: 1495px;
+    min-width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.editor-window {
+    height: 756px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.dragItem {
+    height: 100%;
+    width: 100em;
+
+    object-position: left;
+    object-fit: cover;
+    align-self: flex-start;
+}
+
+.js_cell--active {
+    border: 2px solid #8888c9;
+}
+
+.button {
+    width: 40px;
+    color: #3A79FF;
+    background-color: #D2E1FF;
+
+    align-self: center;
+}
+
+.button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px #9eb4ea, 0 0 20px #9eb4ea, 0 0 30px #9eb4ea;
+}
