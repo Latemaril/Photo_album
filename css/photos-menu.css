@@ -17,6 +17,7 @@
 
 .photo-selection {
     flex-basis: 20%;
+    align-self: center;
 
     display: grid;
     gap: 10px;
