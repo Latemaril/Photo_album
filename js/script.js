@@ -18,11 +18,12 @@ dropZones.forEach((js_cell) => {
 function handlerDragstart(event) {
     event.dataTransfer.setData("js_item", this.dataset.item);
 
-    this.classList.add("dragItem--active");
+    this.classList.add("js_item--active");
 }
 
 function handlerDragend(event) {
-    this.classList.remove("dragItem--active");
+    this.classList.remove("js_item--active");
+
 }
 
 function handlerDrag(event) {}
@@ -41,6 +42,8 @@ function handlerDragover(event) {
 }
 
 function handlerDrop(event) {
+    this.classList.remove("js_cell--active")
+
     if (document.getElementById("dick") !== null) {
         document.getElementById("dick").remove();
     }
