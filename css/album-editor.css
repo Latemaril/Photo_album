@@ -65,12 +65,12 @@
 .photo-container-2 {
     position: relative;
 
-    height: 200px;
+    height: 300px;
     width: 250px;
 
     background-color: #a4a4a4;
 
-    top: 40px;
+    top: 25px;
     left: 50px;
 
     display: flex;
