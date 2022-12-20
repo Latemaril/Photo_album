@@ -24,21 +24,7 @@
 					</div>
 				</div>
 			</div>
-
-			<script>
-				function createPDF() {
-					let pdf = document.getElementById("content");
-					let opt = {
-						margin: 1,
-						filename: 'html2pdf-converted.pdf',
-						image: { type: 'jpeg', quality: 1 },
-						html2canvas:  { scale: 2 },
-						jsPDF: { unit: 'in', format: 'a4', orientation: 'l' }
-					};
-					html2pdf().set(opt).from(pdf).save();
-				}
-			</script>
-
+			
 		</section>
 		<section class="photos-menu">
 			<div class="photo-menu-container">
@@ -68,7 +54,8 @@
 	</div>
 </div>
 
-<script src="js/script.js"></script>
+<script src="js/drag_and_drop.js"></script>
+<script src="js/export_to_pdf.js"></script>
 </body>
 </html>
 
