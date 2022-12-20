@@ -4,6 +4,8 @@
     height: 100%;
 
     display: flex;
+    flex-direction: column;
+    gap: 100px;
     justify-content: center;
     align-content: center;
 
@@ -11,6 +13,8 @@
 
     border-left: 2px solid #b4b4b4;
     border-right: 2px solid #b4b4b4;
+
+    overflow-y: auto;
 }
 
 .album-pages {
@@ -99,4 +103,33 @@
     align-content: center;
 
     overflow: hidden;
+}
+
+.album__buttons {
+    position: relative;
+
+    margin: 0px 30px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.export {
+    display: flex;
+    flex-basis: 50%;
+    justify-content: flex-start;
+}
+
+.clear {
+    display: flex;
+    flex-basis: 50%;
+    justify-content: flex-end;
+}
+
+.button_export {
+
+}
+
+.button_clear {
+
 }

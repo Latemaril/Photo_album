@@ -24,7 +24,10 @@
 					</div>
 				</div>
 			</div>
-			
+			<div class="album__buttons">
+				<div class="export"><button class="button_export" onclick="createPDF()">Экспорт</button></div>
+				<div class="clear"><button class="button_clear" onclick="pagesClear()">Очистить всё</button></div>
+			</div>
 		</section>
 		<section class="photos-menu">
 			<div class="photo-menu-container">
@@ -44,7 +47,7 @@
 				</div>
 				<div class="shapes-selection">
 					<div class="shapes__container">
-						<button class="button shape-1" onclick="createPDF()">1</button>
+						<button class="button shape-1">1</button>
 						<button class="button shape-2">2</button>
 						<button class="button shape-3">3</button>
 					</div>
@@ -55,7 +58,7 @@
 </div>
 
 <script src="js/drag_and_drop.js"></script>
-<script src="js/export_to_pdf.js"></script>
+<script src="js/album_buttons.js"></script>
 </body>
 </html>
 
