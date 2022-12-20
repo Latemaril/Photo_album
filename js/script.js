@@ -25,7 +25,6 @@ dragItems.forEach((js_item) => {
     js_item.addEventListener("dragstart", handlerDragstart)
     js_item.addEventListener("dragend", handlerDragend)
     js_item.addEventListener("drag", handlerDrag)
-
 })
 
 dropZones.forEach((js_cell) => {
@@ -69,7 +68,7 @@ function handlerDrop(event) {
 
     const dragFlag = event.dataTransfer.getData("js_item")
     const dragItem = document.querySelector(`[data-item="${dragFlag}"]`)
-    dragItem.removeAttribute("draggable")
+    // dragItem.removeAttribute("draggable")
     const clone = dragItem.cloneNode(true)
     clone.id = "dick"
 
@@ -82,3 +81,4 @@ function handlerDrop(event) {
         parent.append(clone)
     }
 }
+

@@ -12,7 +12,9 @@
 }
 
 .editor-window {
-    height: 740px;
+    height: 745px;
+    height: 100vh;
+
 
     display: flex;
     flex-direction: row;
